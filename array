@@ -1,0 +1,13 @@
+public class Array{ 
+public static void main(String args[]) {
+int marks[]=new int[4];
+marks[0]=60;
+marks[1]=61;
+marks[2]=72;
+marks[3]=53;
+for (int j=0;j<marks.length();j++) {
+System.out.println(marks[j]) ;
+}
+}
+
+}
