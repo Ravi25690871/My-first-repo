@@ -1,9 +1,13 @@
-class Student
+ss Student
 {
-String name;
-int roll;
-public void prin() 
+      String name;
+     int roll;
+
+public void prin()
+ {
 System.out.println(this.name);
+   }
+
 }
 public class School
 {
@@ -11,5 +15,7 @@ public static void main (String args[])
 {
 Student s1=new Student();
 s1.name="Ravi Hembrom ";
-}
+s1.roll=30;
+s1.prin() 
+       }
 }
